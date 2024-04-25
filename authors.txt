@@ -4,7 +4,7 @@ Ralf Gabriels	VIB-UGent Center for Medical Biotechnology, 9052, Zwijnaarde, Belg
 Tanja Holstein	VIB-UGent Center for Medical Biotechnology, 9052, Zwijnaarde, Belgium; Department of Biomolecular Medicine, Ghent University, 9000, Ghent, Belgium
 Tobias Kockmann	Functional Genomics Center Zürich, ETH Zurich/University of Zurich, Winterthurerstrasse 190, CH-8057 Zürich, Switzerland
 Alireza Nameni	VIB-UGent Center for Medical Biotechnology, 9052, Zwijnaarde, Belgium; Department of Biomolecular Medicine, Ghent University, 9000, Ghent, Belgium
-Christian Panse	Functional Genomics Center Zürich, ETH Zurich/University of Zurich, Winterthurerstrasse 190, CH-8057 Zürich, Switzerland;Swiss Institute of Bioinformatics, Quartier Sorge - Batiment Amphipole, 1015 Lausanne, Switzerland
+Christian Panse\footnote{Correspondence: \url{cp@fgcz.ethz.ch}}	Functional Genomics Center Zürich, ETH Zurich/University of Zurich, Winterthurerstrasse 190, CH-8057 Zürich, Switzerland;Swiss Institute of Bioinformatics, Quartier Sorge - Batiment Amphipole, 1015 Lausanne, Switzerland
 Ralph Schlapbach	Functional Genomics Center Zürich, ETH Zurich/University of Zurich, Winterthurerstrasse 190, CH-8057 Zürich, Switzerland
 Ludwig Lautenbacher	Computational Mass Spectrometry, TUM School of Life Sciences, Technical University of Munich, Maximus-von-Imhof-Forum 3, D - 85354 Freising, Germany
 Matthias Mattanovich	Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen, Blegdamsvej 3B, DK-2200 Copenhagen, Denmark
@@ -18,4 +18,5 @@ Matthew The	TUM School of Life Sciences Technische Universität München D - 853
 Henry Webel	Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark
 Mathias Wilhelm	Computational Mass Spectrometry, TUM School of Life Sciences, Technical University of Munich, Maximus-von-Imhof-Forum 3, D - 85354 Freising, Germany
 Dirk Winkelhardt	Ruhr-Universität Bochum, Germany
+Witold E. Wolski	Functional Genomics Center Zürich, ETH Zurich/University of Zurich, Winterthurerstrasse 190, CH-8057 Zürich, Switzerland;Swiss Institute of Bioinformatics, Quartier Sorge - Batiment Amphipole, 1015 Lausanne, Switzerland
 Muyao Xi	Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen, Blegdamsvej 3B, DK-2200 Copenhagen, Denmark
