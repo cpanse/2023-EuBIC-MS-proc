@@ -3,13 +3,16 @@
 
 file=main
 
-all: pdf out authors.tex main.tex
+all: pdf out authors.tex main.tex affiliation.tex
 	make pdf
 	make bib
+	make pdf
 	make pdf
 	
 authors.tex: authors.txt
 	awk -F "\t" '{print $$1;}$$1 !~ /Xi/{print "\\and"}' $< > $@
+affiliation.tex: authors.txt
+	tr -d '\r' < $< | awk -F"\t" '{a[$$1]=$$2}END{for (i in a){print i"\t&\t"a[i]}}' | sort -t"&" -k2 | awk '{print $$0"\\\\"}' | sed 's/;/\\\\\n\t\t\&/g' > $@
 
 
 out:
@@ -28,7 +31,7 @@ changes:
 	makeindex -s gglo.ist -o $(file).gls $(file).glo
 
 clean:
-	$(RM) authors.tex
+	$(RM) authors.tex affiliation.tex main.pdf main.aux main.bbl main.blg main.log main.out main.pdf
 xview:
 	xpdf -z 200 $(file).pdf &>/dev/null
 

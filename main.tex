@@ -44,7 +44,25 @@
 \input {4_poster}
 \input {5_conclusion}
 
-
-\bibliographystyle{unsrtnat}
+\bibliographystyle{unsrt}
 \bibliography{main}
+
+\appendix
+\section{Author affiliation}
+
+\begin{table}[h]
+\centering
+\label{tab:affiliation}
+
+\resizebox{\textwidth}{!}{
+\begin{tabular}{ll}
+%\hline
+\input{affiliation}
+%\hline
+\end{tabular}
+}
+\caption{Author affiliation; grouped by author and ordered by affiliation.}
+\end{table}
+
+
 \end{document}
