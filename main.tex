@@ -1,0 +1,50 @@
+\documentclass[11pt,a4paper,DIV21,abstracton]{scrartcl}
+
+\usepackage{url}
+\usepackage{xcolor}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
+\usepackage{multirow}
+\usepackage{natbib}
+\usepackage{times}
+\usepackage{inputenc}
+\usepackage{graphics}
+\usepackage{graphicx}
+
+
+\newcommand{\GHI}[1]{\href{https://github.com/EuBIC/EuBIC2023/issues/#1/}{https://github.com/EuBIC/EuBIC2023/issues{#1}}}
+
+
+\title{Proceedings of the EuBIC-MS Developers Meeting 2023}
+
+\author{
+	\input{authors}
+}
+
+\date{{\small Zurich, \today}}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+	\input{abstract}
+	\vspace{0.5cm}
+	\textbf{Keywords:
+	}
+	\input{keywords}
+\end{abstract}
+
+
+\input {1_intro}
+\input {2_keynotes.tex}
+\input {3_hackathons}
+\input {4_poster}
+\input {5_conclusion}
+
+
+\bibliographystyle{unsrtnat}
+\bibliography{main}
+\end{document}
