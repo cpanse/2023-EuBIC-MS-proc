@@ -1,5 +1,5 @@
 ﻿Pedro Beltrao	Department of Biology, ETH Zurich, Switzerland
-Tim Van Den Bossch	VIB-UGent Center for Medical Biotechnology, 9052, Zwijnaarde, Belgium; Department of Biomolecular Medicine, Ghent University, 9000, Ghent, Belgium
+Tim Van Den Bossche	VIB-UGent Center for Medical Biotechnology, 9052, Zwijnaarde, Belgium; Department of Biomolecular Medicine, Ghent University, 9000, Ghent, Belgium
 Ralf Gabriels	VIB-UGent Center for Medical Biotechnology, 9052, Zwijnaarde, Belgium; Department of Biomolecular Medicine, Ghent University, 9000, Ghent, Belgium
 Tanja Holstein	VIB-UGent Center for Medical Biotechnology, 9052, Zwijnaarde, Belgium; Department of Biomolecular Medicine, Ghent University, 9000, Ghent, Belgium
 Tobias Kockmann	Functional Genomics Center Zürich, ETH Zurich/University of Zurich, Winterthurerstrasse 190, CH-8057 Zürich, Switzerland
