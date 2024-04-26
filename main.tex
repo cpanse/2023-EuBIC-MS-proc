@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,DIV21,abstracton,draft,twocolumn]{scrartcl}
+\documentclass[11pt,a4paper,DIV21,abstracton,twocolumn]{scrartcl}
 
 \usepackage{url}
 \usepackage{xcolor}
@@ -17,6 +17,7 @@
 \usepackage[yyyymmdd,hhmmss]{datetime}
 \pdfcompresslevel=9
 \usepackage{float}
+%\usepackage{adjustbox}
 
 
 \newcommand{\GHI}[1]{\href{https://github.com/EuBIC/EuBIC2023/issues/#1/}{https://github.com/EuBIC/EuBIC2023/issues{#1}}}
@@ -32,6 +33,7 @@
 
 \begin{document}
 \maketitle
+
 \begin{abstract}
 	\input{abstract}
 	\vspace{0.5cm}
@@ -50,21 +52,19 @@
 \bibliographystyle{unsrt}
 \bibliography{main}
 
-\newpage
-\appendix
-\section{Author affiliation}
+%\newpage
+%\appendix
+%\section{Author affiliation}
 \begin{table*}[ht]
 \centering
 \label{tab:affiliation}
 
-\resizebox{0.9\textwidth}{!}{
-\begin{tabular}{ll}
-%\hline
-\input{affiliation}
-%\hline
-\end{tabular}
-}
-\caption{Author affiliation; grouped by author and ordered by affiliation.}
+  \resizebox{\textwidth}{!}{
+    \begin{tabular}{ll}
+    \input{affiliation}
+    \end{tabular}
+  }
+\caption{Author affiliation; grouped and ordered by affiliation.}
 \end{table*}
 
 
