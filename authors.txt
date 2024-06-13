@@ -4,13 +4,13 @@ Ralf Gabriels	VIB-UGent Center for Medical Biotechnology, 9052, Zwijnaarde, Belg
 Tanja Holstein	VIB-UGent Center for Medical Biotechnology, 9052, Zwijnaarde, Belgium; Department of Biomolecular Medicine, Ghent University, 9000, Ghent, Belgium
 Tobias Kockmann	Functional Genomics Center Zürich, ETH Zurich/University of Zurich, Winterthurerstrasse 190, CH-8057 Zürich, Switzerland
 Alireza Nameni	VIB-UGent Center for Medical Biotechnology, 9052, Zwijnaarde, Belgium; Department of Biomolecular Medicine, Ghent University, 9000, Ghent, Belgium
-Christian Panse\footnote{Correspondence: \url{cp@fgcz.ethz.ch}}	Functional Genomics Center Zürich, ETH Zurich/University of Zurich, Winterthurerstrasse 190, CH-8057 Zürich, Switzerland;Swiss Institute of Bioinformatics, Quartier Sorge - Batiment Amphipole, 1015 Lausanne, Switzerland
-Ralph Schlapbach	Functional Genomics Center Zürich, ETH Zurich/University of Zurich, Winterthurerstrasse 190, CH-8057 Zürich, Switzerland
 Ludwig Lautenbacher	Computational Mass Spectrometry, TUM School of Life Sciences, Technical University of Munich, Maximus-von-Imhof-Forum 3, D - 85354 Freising, Germany
 Matthias Mattanovich	Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen, Blegdamsvej 3B, DK-2200 Copenhagen, Denmark
 Alexey Nesvizhskii	Departments of Pathology and Computational Medicine and Bioinfoirmatics, University of Michigan, Ann Arbor, Michigan, 48105 USA 
+Christian Panse\footnote{Correspondence: Functional Genomics Center Zurich UZH\texttt{|}ETH Zurich Winterthurerstr.~190, CH-8057 Zurich, Switzerland. Email: \url{cp@fgcz.ethz.ch}}	Functional Genomics Center Zürich, ETH Zurich/University of Zurich, Winterthurerstrasse 190, CH-8057 Zürich, Switzerland;Swiss Institute of Bioinformatics, Quartier Sorge - Batiment Amphipole, 1015 Lausanne, Switzerland
 Bart Van Puyvelde	ProGenTomics, Laboratory of Pharmaceutical Biotechnology, Ghent University, Ottergemsesteenweg 460, BE-9000 Ghent, Belgium
 Jonas Scheid	Department of Peptide-based Immunotherapy, Institute of Immunology, University and University hospital Tübingen, Auf der Morgenstelle 15, D-72076 Tübingen, Germany; Quantitative Biology Center (QBiC), University of Tübingen, Auf der Morgenstelle 10, D-72076 Tübingen, Germany
+Ralph Schlapbach	Functional Genomics Center Zürich, ETH Zurich/University of Zurich, Winterthurerstrasse 190, CH-8057 Zürich, Switzerland
 Veit Schwämmle	Department of Biochemistry and Molecular Biology, University of Southern Denmark, Campusvej 55, 5230 Odense, Denmark
 Maximilian Strauss	Proteomics Program, Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark
 Anna Klimovskaia Susmelj	Biognosys, Schlieren, Zurich 8952, Switzerland; now AI Center ETH Zürich

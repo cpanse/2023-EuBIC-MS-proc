@@ -1,5 +1,6 @@
 \documentclass[11pt,a4paper,DIV21,abstracton,twocolumn]{scrartcl}
 
+\usepackage{booktabs}
 \usepackage{url}
 \usepackage{xcolor}
 \usepackage[colorlinks = true,
@@ -9,7 +10,8 @@
             anchorcolor = blue]{hyperref}
 
 \usepackage{multirow}
-\usepackage{natbib}
+%\usepackage{natbib}
+\usepackage[round, numbers, sort]{natbib}
 \usepackage{times}
 \usepackage{inputenc}
 \usepackage{graphics}
@@ -18,6 +20,7 @@
 \pdfcompresslevel=9
 \usepackage{float}
 %\usepackage{adjustbox}
+
 
 
 \newcommand{\GHI}[1]{\href{https://github.com/EuBIC/EuBIC2023/issues/#1/}{https://github.com/EuBIC/EuBIC2023/issues{#1}}}
@@ -29,7 +32,7 @@
 	\input{authors}
 }
 
-\date{{\small Zurich, \today\ at \currenttime}}
+\date{{\small Zürich, Switzerland, \today\ at \currenttime}}
 
 \begin{document}
 \maketitle
@@ -49,8 +52,9 @@
 \input {4_poster}
 \input {5_conclusion}
 
-\bibliographystyle{unsrt}
-\bibliography{main}
+%\bibliographystyle{unsrt}
+\bibliographystyle{unsrtnat}
+\bibliography{main, github}
 
 %\newpage
 %\appendix
