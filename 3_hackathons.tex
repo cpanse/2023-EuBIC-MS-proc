@@ -10,10 +10,10 @@ State of the art for identification in mass-spectrometry-based proteomics is to 
 %https://github.com/EuBIC/EuBIC2023/issues/14)
 
 
-\subsection{Matthias Mattanovich/Muyao Xi - MS2 spectra matching for metabolite identification}
+\subsection{Matthias Mattanovich and Muyao Xi - MS2 spectra matching for metabolite identification}
 
 One major open topic in untargeted metabolomics is identifying unknown compounds from mass spectra. As MS1 comparisons can be ambiguous (especially for small molecules), we need to look at MS2 spectra, and compare them to public MS2 databases, to differentiate compounds in the same mass range. Currently, the best performing methods for compound identification are GNPS and Sirius. They provide a user with a list of potential compounds, but in some cases the uncertainty is very high or multiple candidates are suggested, making the downstream analysis labor intensive. GNPS improves their predictions by using molecular networks and taking biological information into account[a]. Sirius improves their predictions by comparing structural similarity of the compounds. We would like to set up a novel system, with modular parts that can be tested separately. Each aspect of the pipeline can be improved/modified individually, and multiple methods can be combined as an ensemble. In doing so, this can also serve as a benchmark of existing scoring and matching functions and a testing playground for novel ideas (see \citep{issue13}).
-%\GHI{13}
+During this hackathon, different spectral similarity scoring functions were compared and their target and off-target scores were evaluated based on similarity of the compounds.
 
 \subsection{Ludwig Lautenbacher - Shaping a European prediction service for biological data}
 
