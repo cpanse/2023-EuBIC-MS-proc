@@ -12,7 +12,6 @@
 \usepackage{multirow}
 \usepackage[round, numbers, sort]{natbib}
 \usepackage{times}
-\usepackage{inputenc}
 \usepackage{graphics}
 \usepackage{graphicx}
 \usepackage[yyyymmdd,hhmmss]{datetime}
@@ -21,6 +20,9 @@
 %\usepackage{adjustbox}
 
 
+\usepackage{CJKutf8}
+\usepackage[encapsulated]{CJK}
+\usepackage{inputenc}
 
 \newcommand{\GHI}[1]{\href{https://github.com/EuBIC/EuBIC2023/issues/#1/}{https://github.com/EuBIC/EuBIC2023/issues{#1}}}
 
@@ -31,7 +33,8 @@
 	\input{authors}
 }
 
-\date{{\small Zürich, Switzerland, \today\ at \currenttime}}
+\date{{\small Osaka \begin{CJK}{UTF8}{min}大阪市\end{CJK}, Japan, \today\ at \currenttime}}
+% \date{{\small Zürich, Switzerland, \today\ at \currenttime}}
 
 \begin{document}
 \maketitle
